@@ -370,9 +370,12 @@ void Init_ClockSystem()                                                 /* Funct
 void updateMessage(int temperature, int counter, SystemState state)
 {
     char stateStr[10];
-    if (state == PARAM_OK) {
+    if (state == PARAM_OK) 
+    {
         snprintf(stateStr, sizeof(stateStr), "TempOK");
-    } else if (state == VENT_ON) {
+    } 
+    else if (state == VENT_ON) 
+    {
         snprintf(stateStr, sizeof(stateStr), "VentON");
     }
 
