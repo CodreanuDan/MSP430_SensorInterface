@@ -6,7 +6,7 @@ This embedded C project is developed using an MSP430FR2355 development board. Th
 
 - **Temperature Monitoring:** The temperature is calculated using the ADC values and converted to a readable format using a formula.
 - **Threshold Comparison:** The measured temperature is compared against a threshold value, which can be modified using buttons connected to pins P2.3 and P4.1.
-- **Periodic ADC Readings and dta transfer trough UART:** ADC readings and UART data transfer are triggered periodically using Timer B0 as a clock signal.
+- **Periodic ADC Readings and Data Transfer through UART:** ADC readings and UART data transfer are triggered periodically using Timer B0 as a clock signal.
 - **I2C Interface:** The temperature and threshold values are displayed on an LCD screen via an I2C connection.
 - **Visual and Audible Alerts:**
   - A **buzzer** is activated when the temperature exceeds the threshold using Timer B1.
@@ -18,9 +18,11 @@ This embedded C project is developed using an MSP430FR2355 development board. Th
 ## Project Overview
 
 ![MSP430 Sensor Interface](https://github.com/user-attachments/assets/55e61db3-7699-4fa4-a508-e7967d0ff5d5)
+*Figure 1: Overview of the MSP430 Sensor Interface project showing connections and components.*
+
 ![msp_pROJ_DIAGRAM](https://github.com/user-attachments/assets/2dc5a040-4a60-4561-98cb-20fd11c03869)
+*Figure 2: Block diagram illustrating the system architecture and data flow.*
 
 ---
 
-
-
+Feel free to explore the code and contribute to this project!
