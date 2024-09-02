@@ -27,4 +27,4 @@ This embedded C project is developed using an MSP430FR2355 development board. Th
 
 ---
 
-Feel free to explore the code and contribute to this project!
+
