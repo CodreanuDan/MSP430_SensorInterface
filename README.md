@@ -18,9 +18,11 @@ This embedded C project is developed using an MSP430FR2355 development board. Th
 ## Project Overview 🖼️
 
 <img src="https://github.com/user-attachments/assets/55e61db3-7699-4fa4-a508-e7967d0ff5d5" alt="MSP430 Sensor Interface" width="500"/>
+
 *Figure 1: Overview of the MSP430 Sensor Interface project showing connections and components.*
 
 <img src="https://github.com/user-attachments/assets/2dc5a040-4a60-4561-98cb-20fd11c03869" alt="msp_pROJ_DIAGRAM" width="500"/>
+
 *Figure 2: Block diagram illustrating the system architecture and data flow.*
 
 ---
